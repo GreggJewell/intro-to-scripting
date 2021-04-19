@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box  {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 196, 0, .6);
+    color: white;
+  }
+
+#sticky-section *,
+#relative-section *,
+#static-section *,
+#absolute-section *,
+#fixed-section *
+    {
+      display: none;
+  }
+  
+  
+
+  #sticky{
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #static {
+    position: static;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+  #absolute{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
