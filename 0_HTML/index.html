@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HTML Template</title>
+</head>
+
+<body>
+	<div>
+		<!-- H1 biggest header size. H6 is the smallest -->
+		<h1>Hello World</h1>
+	</div>
+
+	<hr>
+	<div class="form">
+		<h3> Forms</h3>
+		<form>
+			<label for="f-name">First Name</label>
+			<input type="text" id="f-name" name="f-name" placeholder="Micheal" required>
+			<!-- br is a line break. -->
+			<br>
+
+			<label for="l-name">Last Name</label>
+			<input type="text" id="l-name" name="l-name" placeholder="Scott" maxlength="20">
+
+			<h5>Military Status</h5>
+			<!-- The name attributes conntect the radio buttons so only one input can be selected -->
+
+			<input type="radio" id="enlisted" name="status" value="Enlisted">
+			<label for="enlisted">Enlisted</label>
+			<br>
+			<input type="radio" id="officer" name="status" value="Officer">
+			<label for="officer">Officer</label>
+			<br>
+			<input type="radio" id="civilian" name="status" value="Civilian">
+			<label for="Civilian">Civilian</label>
+			<br>
+
+
+			<label for="experience">Coding Experience</label>
+			<br>
+
+			<select id="experience">
+				<option value="">--Please choose an option--</option>
+				<option value="none">None</option>
+				<option value="some">Some</option>
+				<option value="experienced">Experienced</option>
+			</select>
+			<br><br>
+
+			<button type="submit">
+				Submit
+			</button>
+
+		</form>
+	</div>
+
+	<hr>
+	<div class="list">
+		<h3> Unordered List</h3>
+		<ul>
+			<li> List item 1</li>
+			<li> List item 2</li>
+			<li> List item 3</li>
+		</ul>
+	</div>
+
+
+	<hr>
+	<div>
+		<h3>Tags</h3>
+		<b> bold tag</b>
+		<p> Paragraph tag</p>
+		<a href="https://www.youtube.com">Link To Youtube </a>
+
+		<img src="https://www.w3schools.com/images/w3schools_green.jpg">
+
+		<!-- Target blank opens link in a new tab -->
+		<a href="https://www.google.com" target="_blank"> Google Link (opens in new tab)</a>
+	</div>
+
+</body>
+
+</html>

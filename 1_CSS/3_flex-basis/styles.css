@@ -1,0 +1,75 @@
+
+
+#demo-container {
+border: 3px solid rgb(0, 0, 0);
+min-height: 700px;
+margin: auto;
+width: 80%;
+background-color: lightgray;
+/* TURN ON THE FLEX */
+display: flex;
+
+
+
+} 
+
+.square  {
+border: 2px solid white;
+height: 100px;
+}
+
+
+/* flex-basis Example */
+/* Sets base width */
+
+#r{
+  background-color: crimson;
+  flex-basis: 300px;
+
+}
+
+#g {
+  background-color: green;
+  flex-basis: 300px;
+}
+
+
+/* Flex-Grow Example */
+
+/* red is getting 5x the remaining space than green is */
+/* 5:1 */
+/*The remaining space is the space in the container not used by
+green and reds basis width*/
+
+/*
+#r{
+  background-color: crimson;
+  flex-basis: 300px;
+  flex-grow: 5; 
+}
+
+#g {
+  background-color: green;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+*/
+
+/* Flex-Shrink Example */
+/*When there is NOT extra space in the container flex-shrink rules take affect*/
+/* red will size will be take 1:5 of the remaining space  */
+
+/* #r{
+  background-color: crimson;
+  flex-basis: 300px;
+  flex-shrink: 5;  
+}
+
+#g {
+  background-color: green;
+  flex-basis: 300px;
+  //1 is default
+  flex-shrink: 1; 
+  
+}
+*/

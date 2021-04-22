@@ -1,0 +1,23 @@
+span {
+    /* display default to inline */
+    display: inline;
+    border: 2px solid blue;
+    background-color: aqua;
+
+    /* Ignored */
+    height: 999px;
+    width: 999px;
+    /* Ignored^ */
+
+    /* Padding and margin become wonky */
+
+}
+
+div {
+    border: 2px solid blue;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    /* display: block  by default */
+    /* display: inline-block; */
+} 

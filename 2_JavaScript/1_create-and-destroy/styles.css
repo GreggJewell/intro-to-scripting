@@ -1,0 +1,39 @@
+
+
+#demo-container {
+border: 3px solid rgb(0, 0, 0);
+min-height: 700px;
+margin: auto;
+width: 80%;
+background-color: lightgray;
+/* TURN ON THE FLEX */
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+} 
+
+.square  {
+height: 100px;
+width: 100px;
+border: 2px solid white;
+}
+
+#r{
+  background-color: crimson;
+}
+
+#g {
+  background-color: green;
+  height: 80px;
+  width: 80px;
+}
+
+#b{
+  background-color: lightskyblue;
+}
+#p{
+  background-color: purple;
+  height: 120px;
+  width: 120px;
+}

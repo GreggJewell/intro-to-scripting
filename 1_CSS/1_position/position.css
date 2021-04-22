@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box  {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 196, 0, .6);
+    color: white;
+  }
+
+  /* Remove or comment display none to view the postion property effect */
+
+  #sticky{
+    display: none; 
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #relative{
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #static {
+    display: none;
+    position: static;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+  #absolute{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+
+  #fixed {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(72, 72, 89, .6);
+  }
+

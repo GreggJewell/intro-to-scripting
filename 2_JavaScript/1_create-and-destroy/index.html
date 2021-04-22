@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Flex</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <button onclick="createSquare('g')">Create green</button>
+        <button onclick="removeSquare('g')">Remove green</button>
+    </div>
+
+    <div id="demo-container">
+
+        <div class="square" id="r"></div>
+        <div class="square" id="g"></div>
+        <div class="square" id="b"></div>
+        <div class="square" id="p"></div>
+    </div>
+
+
+</body>
+
+<script>
+    var i = 1
+
+    function createSquare(id) {
+
+        var newSquare = document.createElement('div')
+        // class="square"
+        newSquare.setAttribute("class", "square")
+        //id="g"
+        newSquare.setAttribute("id", "g")
+
+        newSquare.innerHTML = "new " + i
+        i++
+        //add newSquare to the demo-container list of elements
+        document.querySelector("#demo-container").appendChild(newSquare)
+    }
+
+    function removeSquare(id) {
+        id = "#" + id
+        //remove the first match
+        document.querySelector(id).remove()
+    }
+</script>
+
+</html>
