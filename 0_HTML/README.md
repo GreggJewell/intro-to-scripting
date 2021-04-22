@@ -1,5 +1,5 @@
 # Hello World
 
 ![An example image of basic html](basic-html.png)
-https://github.com/Codemmandos/intro-to-scripting/new/main/0_HTM
 
+More information about HTML Tags can be found here: (https://www.w3schools.com/tags/default.asp)
