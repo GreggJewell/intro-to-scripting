@@ -1,4 +1,4 @@
-# Hello World
+# HTML (HyperText Markup Language)
 
 ![An example image of basic html](basic-html.png)
 
