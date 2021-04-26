@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+
+    <form>
+        <div>
+            <h4>First Name</h4>
+            <input type="text" required placeholder="I am required">
+        </div>
+
+        <div>
+            <h4>Tell us about <b>yourself:</b> </h4>
+            <textarea></textarea>
+        </div>
+
+        <div id="cat-question-container">
+            <h4>Do you like cats?</h4>
+            <!-- radio buttons are typically intented for only one selected option in the group -->
+            <!-- name attribute only allows one value to be selected at a time -->
+
+            <label for="cat-question-yes">Yes</label>
+            <input id="cat-question-yes" type="radio" value="yes" name="cat-question-answer">
+
+            <label for="cat-question-no">No</label>
+            <input id="cat-question-no" type="radio" value="no" name="cat-question-answer">
+
+        </div>
+
+        <div id="learning-methods-container">
+            <!-- Multiple options can be selected at a time using checkboxes -->
+
+            <h4>What are your learning style(s)</h4>
+            <label for="video-checkbox">Video</label>
+            <input id="video-checkbox" type="checkbox" value="video" name="video">
+
+            <label for="reading-checkbox">Reading</label>
+            <input id="reading-checkbox" type="checkbox" value="reading" name="written">
+
+
+            <label for="hands-on-checkbox">Hands On</label>
+            <input id="hands-on-checkbox" type="checkbox" value="hands on" name="hands-on" checked>
+
+
+        </div>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
