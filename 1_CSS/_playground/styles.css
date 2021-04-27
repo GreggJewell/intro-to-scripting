@@ -1,0 +1,86 @@
+body {
+display: flex;
+height: 100%;
+width: 100%;
+}
+
+a #link{
+  text-decoration: none;
+}
+
+
+#demo-container {
+border: 3px solid pink;
+display: flex;
+min-height: 700px;
+height: 80%;
+width: 100%;
+margin: auto;
+background-color: lightgray;
+}
+
+#demo-content {
+height: 80%;
+width: 80%;
+margin: auto;
+text-align: center;
+border: 2px solid blue;
+background-color: lightskyblue;
+padding: 30px;
+}
+
+/* style for any BUTTON within a DIV */
+div button{
+    color: pink;
+    border: 2px solid blue;
+}
+
+ /* @keyframes flash_example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    0%{background-color: red;}
+    50%{background-color: yellow;}
+    100%{background-color: red;}
+  }
+  
+
+  button {
+        background-color: red;
+        animation-name: flash_example;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+  } 
+   */
+
+   span{
+     font-size: 40px;
+   }
+   button{
+     font-size: 1em;;
+     border-radius: .2em;
+   }
+
+   .square{
+     height: 50px;
+     width: 50px;
+     background-color: blue;
+   }
+
+   .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+   }
+
+   .shape-wrapper{
+     border: 2px solid black;
+     background-color: grey;
+   }
+
+   .shape-wrapper:hover{
+     background-color: rgba(0, 0, 0, .5);
+     cursor: pointer;
+   }
